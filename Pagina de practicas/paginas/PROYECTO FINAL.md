@@ -31,16 +31,6 @@ Tecnologías utilizadas:
 
 ---
 
-## 🔹 Control PID de Plataforma
-Valores ajustables:
-- **Kp** — proporcional  
-- **Ki** — integral 
-- **Kd** — derivativo  
-
-> ✍️ En esta sección explicarás tu proceso de tuning, pruebas, gráficas, estabilidad, etc.
-
----
-
 ## 🔹 Plataforma Stewart de 3 Servos
 
 Servos usados: Mg995
