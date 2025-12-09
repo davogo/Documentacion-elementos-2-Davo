@@ -27,7 +27,7 @@ markdown_extensions:
 
 theme:
   name: material
-  highlightjs: true 
+  highlightjs: true
   palette:
     - scheme: default
       primary: red
@@ -44,9 +44,11 @@ nav:
   - Comandos: comandos.md
   - Ejemplo: ejemplo.md
   - Git CMDs: gitcmds.md
+
   - Recursos:
-      - recursos/
+      - recursos/: recursos/
+
   - Página de Prácticas:
       - Proyecto Final: "Pagina de practicas/PROYECTO FINAL.md"
       - Páginas:
-          - "Pagina de practicas/paginas/"
+          - Pagina de practicas/paginas/: "Pagina de practicas/paginas/"
