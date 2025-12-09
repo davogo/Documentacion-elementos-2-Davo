@@ -1,4 +1,5 @@
 site_name: Plantilla para Documentación
+
 markdown_extensions:
   - pymdownx.highlight:
       anchor_linenums: true
@@ -23,18 +24,29 @@ markdown_extensions:
   - pymdownx.tasklist:
       custom_checkbox: true
       clickable_checkbox: true
-# Use the ReadTheDocs theme
+
 theme:
   name: material
   highlightjs: true 
   palette:
-      - scheme: default
-        primary: red
-
+    - scheme: default
+      primary: red
   features:
     - content.code.copy
     - content.tooltips
+
 extra_css:
   - https://use.fontawesome.com/releases/v6.5.2/css/all.css
   - https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css
 
+nav:
+  - Inicio: index.md
+  - Comandos: comandos.md
+  - Ejemplo: ejemplo.md
+  - Git CMDs: gitcmds.md
+  - Recursos:
+      - recursos/
+  - Página de Prácticas:
+      - Proyecto Final: "Pagina de practicas/PROYECTO FINAL.md"
+      - Páginas:
+          - "Pagina de practicas/paginas/"
